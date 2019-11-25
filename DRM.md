@@ -66,7 +66,7 @@
       * Widevine was broken in 2019, but it was just a client and server update, and things were back to normal
         * This is probably different if are actually implementing widevine on HW instead of using their servers
       * If PlayReady is broken the library needs to be distributed to the people implementing it and they then need to upgrade and redeploy their service
-* *TODO*
+* **TODO**
   * Figure out terminology
     * Provider
     * System
