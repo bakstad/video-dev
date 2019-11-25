@@ -19,7 +19,7 @@
   * Key server
   * Content / On the fly packager
 * DRM
-  * Providers (is this the correct term?)
+  * Systems
     * Widevine (Google)
     * PlayReady (Microsoft)
     * Fairplay (Apple)
@@ -44,7 +44,7 @@
       * Host and implement server with library from the provider
         * PlayReady
       * Implement the spec
-        * Airplay
+        * Fairplay
   * Device
     * CDM
 * Technical solutions
@@ -68,8 +68,8 @@
       * If PlayReady is broken the library needs to be distributed to the people implementing it and they then need to upgrade and redeploy their service
 * **TODO**
   * Figure out terminology
-    * Provider
-    * System
+    * Provider (Provider is a service that implements DRM systems?)
+    * System (The actual technology?)
     * ...
   * Explain Common encryption
     * What is standardized
